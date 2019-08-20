@@ -1,4 +1,5 @@
 import React from 'react';
+import './style.css';
 
 class HomeView extends React.Component {
 
@@ -12,8 +13,6 @@ class HomeView extends React.Component {
 
     onValueChange = (e) => {
         let value = e.target.value;
-        const { onChange, id } = this.props;
-        onChange(id, value);
         this.setState({ inputValue: value });
     }
 
@@ -21,11 +20,17 @@ class HomeView extends React.Component {
         const { inputValue } = this.state;
 
         return (
-            <input
-                type={this.props.type}
-                onChange={this.onValueChange}
-                value={inputValue}
-            />
+            <div className="container">
+                <div className="item">
+                    <p>Cómo te llamas?</p>
+                </div>
+                <div className="item">
+                    <input
+                        onChange={this.onValueChange}
+                        value={inputValue}
+                    />
+                </div>
+            </div>
         )
     }
 
