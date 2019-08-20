@@ -16,6 +16,10 @@ class HomeView extends React.Component {
         this.setState({ inputValue: value });
     }
 
+    clickadisimo = () => {
+        console.log("xd");
+    }
+
     render() {
         const { inputValue } = this.state;
 
@@ -29,6 +33,9 @@ class HomeView extends React.Component {
                         onChange={this.onValueChange}
                         value={inputValue}
                     />
+                </div>
+                <div className="item">
+                    <button className="control-button" onClick={this.clickadisimo}>Go!</button>
                 </div>
             </div>
         )

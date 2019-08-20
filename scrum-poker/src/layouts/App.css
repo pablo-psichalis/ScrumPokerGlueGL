@@ -23,6 +23,17 @@
 .item {
   font-weight: 700;
   padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+.control-button {
+  background:#09080d;
+  color: #fff;
+  padding: 5px 15px 5px 15px;
+}
+
+.control-button:hover {
+  background-color: #231f33;
 }
 
 .App-footer {

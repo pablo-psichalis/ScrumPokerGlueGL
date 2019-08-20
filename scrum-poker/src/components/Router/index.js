@@ -10,7 +10,7 @@ import Results from '../../views/ResultsView'
 
 import NotFound from '../NotFound'
 
-const Router = ({ history }) => (
+const Router = () => (
     <BrowserRouter>
         <App>
             <Switch>
