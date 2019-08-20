@@ -6,9 +6,13 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Welcome to Scrum Poker</h1>
-          {this.props.children}
+          <h2 className="App-title">Scrum Poker</h2>
         </header>
+        {this.props.children}
+
+        <div className="App-footer">
+          <p>Made with ♥ by Pablo Psichalis</p>
+        </div>
       </div>
     );
   }
