@@ -3,7 +3,7 @@ import React from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 import App from '../../layouts/App'
-import Home from '../../views/Home'
+import Home from '../../views/HomeView'
 import Voting from '../../views/VotingView'
 import Loading from '../../views/LoadingView'
 import Results from '../../views/ResultsView'
