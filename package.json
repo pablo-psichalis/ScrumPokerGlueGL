@@ -1,0 +1,22 @@
+{
+  "name": "scrumpokergluegl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablo-psichalis/ScrumPokerGlueGL.git"
+  },
+  "author": "Pablo Psichalis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pablo-psichalis/ScrumPokerGlueGL/issues"
+  },
+  "homepage": "https://github.com/pablo-psichalis/ScrumPokerGlueGL#readme",
+  "dependencies": {
+    "scrum-poker-lib": "git+https://gitlab.com/glue-gl/scrum-poker-lib.git"
+  }
+}
