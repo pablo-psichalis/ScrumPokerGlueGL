@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/pablo-psichalis/ScrumPokerGlueGL#readme",
   "dependencies": {
-    "react-router-dom": "^5.0.1",
+    "react-router-dom": "^6.26.2",
     "scrum-poker-lib": "git+https://gitlab.com/glue-gl/scrum-poker-lib.git"
   }
 }
